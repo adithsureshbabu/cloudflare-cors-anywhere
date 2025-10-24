@@ -137,7 +137,7 @@ addEventListener("fetch", async (event) => {
           }
 
           return new Response(
-            "CLOUDFLARE-CORS-ANYWHERE\n\n" +
+            "CORS PROXY USING CLOUDFLARE WORKER\n\n" +
               "Usage:\n" +
               originUrl.origin +
               "/?uri\n\n" +
